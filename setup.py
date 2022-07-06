@@ -116,7 +116,7 @@ def main():
                 'python-dateutil==2.4.2',
                 'python-ldap==3.4.0',
                 'pywin32==304',
-                'PyYAML==6.0
+                'PyYAML==6.0',
                 'requests==2.28.1',
                 'ruamel.yaml==0.16.13',
                 'ruamel.yaml.clib==0.2.2',

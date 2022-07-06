@@ -44,14 +44,14 @@ def main():
         ]
 
     options=dict(
-            name = 'restkit',
+            name = 'restkit3',
             version = version.__version__,
             description = 'Python REST kit',
             long_description = long_description,
-            author = 'Benoit Chesneau',
-            author_email = 'benoitc@e-engura.org',
+            author = 'Benoit Chesneau, Maxim Maslin',
+            author_email = 'zapzarap@yandex.ru',
             license = 'MIT',
-            url = 'http://benoitc.github.com/restkit',
+            url = 'https://github.com/mxmaslin/restkit3',
             classifiers = CLASSIFIERS,
             packages = find_packages(),
             data_files = DATA_FILES,

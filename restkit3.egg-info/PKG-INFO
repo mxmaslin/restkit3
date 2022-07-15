@@ -2,11 +2,10 @@ Metadata-Version: 2.1
 Name: restkit3
 Version: 4.2.0
 Summary: Python REST kit
-Home-page: http://mxmaslin.github.com/restkit
+Home-page: https://github.com/mxmaslin/restkit3
 Author: Benoit Chesneau, Maxim Maslin
 Author-email: zapzarap@yandex.ru
 License: MIT
-Platform: UNKNOWN
 Classifier: Development Status :: 4 - Beta
 Classifier: Environment :: Web Environment
 Classifier: Intended Audience :: Developers
@@ -206,6 +205,4 @@ If you want to add OAuth  to your `TwitterSearch` resource::
   client = oauth.OAuthfilter('*', consumer)
     
   s = TwitterSearch(filters=[client])
-
-
 

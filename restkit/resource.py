@@ -179,6 +179,8 @@ class Resource(object):
         params = params or {}
         params.update(params_dict or {})
 
+        print('yay ' * 100)
+
         while True:
             uri = util.make_uri(self.uri, path, charset=self.charset,
                         safe=self.safe, encode_keys=self.encode_keys,
